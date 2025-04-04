@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  margin: 0px;
+  padding: 50px 60px;
+}
+
+#dragon {
+  width: 200px;
+  padding: 20px 0px;
+}
+
+ul {
+  text-align: left;
+}
+
+button {
+  width: 20%;
+  height: 30px;
+}
+
+.infoBtnDiv {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.infoBtn {
+  width: 120px;
+  height: 70px;
+  background-color: #fceeb9;
+  color: #000;
+  font-size: 12px;
+  font-weight: medium;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.infoBtn:hover {
+  background-color: #ffe733;
+}
+
+.BtnDets {
+  display: none;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  max-width: 250px;
+  position: absolute;
+  transform: translateY(10px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#howToBtnDetail {
+  top: 35%;
+  left: 20%;
+}
+
+#whatBtnDetail {
+  top: 35%;
+  right: 20%;
+}
+
+.show {
+  display: block;
+  opacity: 1;
+}
